@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+h1 {
+    margin: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+h1 :nth-child(1) {
+    color: crimson;
+}
+h1 :nth-child(2) {
+    color: gold;
+}
+h1 :nth-child(3) {
+    color: royalblue;
+}
+h1 :nth-child(4) {
+    color: yellowgreen;
+}
+h1 :nth-child(5) {
+    color: seagreen;
+}
+h1 :nth-child(6) {
+    color: salmon;
+}
+#grid ul{
+    list-style: none;
+    border-right: 1px solid gray;
+    width: 130px;
+    margin: 0;
+    padding: 20px 30px 0px 30px;
+    font-size: 20px;
+}
+#index {
+    text-decoration: none;
+}
+#grid a {
+    text-align: center;
+    color: white;
+}
+#gird li {
+    padding: 40px;
+    margin:40px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+}
